@@ -216,11 +216,11 @@ function resetForm(){
 }
 
 function bandFor(score){
-  if(score<1.0)return{cls:'band-red',label:'Very Weak'};
-  if(score<1.5)return{cls:'band-orange',label:'Weak'};
-  if(score<2.0)return{cls:'band-yellow',label:'Mediocre'};
-  if(score<2.5)return{cls:'band-lgreen',label:'Strong'};
-  return{cls:'band-green',label:'Very Strong'};
+  if(score<1.0)return{cls:'band-red',label:'Very Weak Effort Level'};
+  if(score<1.5)return{cls:'band-orange',label:'Weak Effort Level'};
+  if(score<2.0)return{cls:'band-yellow',label:'Mediocre Effort Level'};
+  if(score<2.5)return{cls:'band-lgreen',label:'Strong Effort Level'};
+  return{cls:'band-green',label:'Very Strong Effort Level'};
 }
 
 function submitScore(){
